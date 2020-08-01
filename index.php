@@ -1,8 +1,7 @@
 <html>
  <head>
-      <link rel="stylesheet" href="css/bootstrap.css">
-     <link rel="stylesheet" href="css/style.css">
-      <script src="js/bootstrap.js"></script>
+      <link rel="stylesheet" href="bootstrap.css">
+     <link rel="stylesheet" href="style.css">
  </head>
     <body>
       
