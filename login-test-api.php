@@ -1,7 +1,5 @@
 <?php
 
-     $dbcon= mysqli_connect("localhost","root","bce1","rest_api");
-
 $request=$_SERVER['REQUEST_METHOD'];
 $data=array();
 //print($request);
