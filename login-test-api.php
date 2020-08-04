@@ -37,6 +37,11 @@ function addData(){
     {
          $data[]=array("status"=>"202", "msg"=>"Failure: password to have 1 character and 1 number");
     }
+         
+     if(!preg_match("#[a-z]+#",$pwd))
+    {
+         $data[]=array("status"=>"202", "msg"=>"Failure: password to have 1 character and 1 number");
+    }
     
     // to check that user name only contain characters
     if(preg_match("/^[a-zA-Z\s]+$/", $id)==false)
